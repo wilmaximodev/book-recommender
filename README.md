@@ -85,3 +85,23 @@ Exemplo de URL:
 http://127.0.0.1:5000/recommend/1
 ```
 Esse endpoint irá exibir uma recomendação de livro com base no histórico de compras do usuário.
+
+### Passo 6: Verificando o Histórico do Usuário
+O histórico do usuário é simulado pela função get_user_history. Você pode alterar ou adicionar dados simulados em Utils/user_data.py para testar diferentes cenários.
+```bash
+book-recommender/
+│
+├── app.py               # Arquivo principal da aplicação Flask
+├── static/              # Arquivos estáticos (CSS, JS, etc.)
+│   └── style.css
+├── templates/           # Templates HTML do Flask
+│   └── recommendation.html
+├── Utils/               # Funções auxiliares
+│   └── user_data.py
+├── Functions/           # Funções de recomendação de livros
+│   └── book_recommendations.py
+└── requirements.txt     # Dependências do projeto
+```
+
+### Contribuição
+Se você deseja contribuir para o projeto, fique à vontade para enviar um pull request. Para qualquer sugestão ou correção, crie uma issue para discutirmos.
