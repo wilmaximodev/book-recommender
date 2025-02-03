@@ -10,6 +10,16 @@ O **Book Recommender** é uma aplicação web desenvolvida com Flask e integraç
 - ⚙️ Integrado com a **API Gemini** para utilizar IA em decisões de recomendação.
 - 🌐 Web interface simples para interagir com o sistema e ver as recomendações.
 
+  ## Tecnologias Usadas
+
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- **Python 3.x** - Linguagem de programação principal do projeto.
+- **Flask** - Framework web para Python, utilizado para criar a aplicação.
+- **Gemini API** - API de IA do Google, usada para gerar as recomendações de livros.
+- **HTML** - Linguagem de marcação para estruturação das páginas web.
+- **CSS** - Linguagem de estilização utilizada para o design da interface.
+
 ## Como Testar o Projeto
 
 ### Pré-requisitos
