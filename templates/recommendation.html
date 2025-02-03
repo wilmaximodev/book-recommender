@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>Recomendações para o Usuário {{ user_id }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendação de Livros</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Recomendações Personalizadas</h1>
-    <p>{{ message }}</p>
+    <div class="container">
+        <header class="header">
+            <h1>Recomendação de Livros</h1>
+        </header>
+        <section class="content">
+            <h2>Olá, usuário {{ user_id }}!</h2>
+            <p>{{ message }}</p>
+        </section>
+        <footer class="footer">
+            <p>&copy; 2025 Projeto Book Recommender. Todos os direitos reservados.</p>
+        </footer>
+    </div>
 </body>
 </html>
