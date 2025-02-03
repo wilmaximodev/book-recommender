@@ -52,8 +52,6 @@ No Linux/macOS:
 ```bash
 export GEMINI_API_KEY="sua_chave_api_aqui"
 No Windows:
-```
-```bash
 set GEMINI_API_KEY="sua_chave_api_aqui"
 ```
 ### Passo 4: Execute o Servidor
@@ -61,8 +59,9 @@ Inicie o servidor Flask para rodar a aplicação localmente:
 
 ```bash
 python app.py
-A aplicação estará acessível em http://127.0.0.1:5000/.
 ```
+A aplicação estará acessível em http://127.0.0.1:5000/.
+
 ### Passo 5: Testando as Funcionalidades
 Para testar as funcionalidades do sistema, basta acessar os seguintes endpoints na sua aplicação:
 
