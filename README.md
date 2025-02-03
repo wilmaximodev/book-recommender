@@ -19,11 +19,27 @@ O **Book Recommender** é uma aplicação web desenvolvida com Flask e integraç
 3. **Gemini API Key** (Obtido ao se cadastrar na [plataforma Gemini](https://google.com/generative-ai))
 
 ### Passo 1: Clone o Repositório
-
 Clone este repositório para sua máquina local:
 
 ```bash
 git clone https://github.com/seu-usuario/book-recommender.git
 cd book-recommender
+```
+### Passo 2: Instale as Dependências
+Crie um ambiente virtual para o projeto e instale as dependências necessárias:
+
+```bash
+# Criar o ambiente virtual
+python3 -m venv venv
+
+# Ativar o ambiente virtual
+# No Windows:
+venv\Scripts\activate
+# No Linux/macOS:
+source venv/bin/activate
+
+# Instalar as dependências
+pip install -r requirements.txt
+
 ```
 
