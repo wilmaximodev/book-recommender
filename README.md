@@ -88,6 +88,8 @@ Esse endpoint irá exibir uma recomendação de livro com base no histórico de 
 
 ### Passo 6: Verificando o Histórico do Usuário
 O histórico do usuário é simulado pela função get_user_history. Você pode alterar ou adicionar dados simulados em Utils/user_data.py para testar diferentes cenários.
+
+### Estrutura de Diretórios
 ```bash
 book-recommender/
 │
