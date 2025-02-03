@@ -16,7 +16,7 @@ O **Book Recommender** é uma aplicação web desenvolvida com Flask e integraç
 
 1. **Python** (recomenda-se a versão 3.8 ou superior)
 2. **Flask**
-3. **Gemini API Key** (Obtido ao se cadastrar na [plataforma Gemini](https://google.com/generative-ai))
+3. **Gemini API Key** (Obtido ao se cadastrar na [plataforma Gemini](https://cloud.google.com/))
 
 ### Passo 1: Clone o Repositório
 Clone este repositório para sua máquina local:
