@@ -43,3 +43,46 @@ pip install -r requirements.txt
 
 ```
 
+### Passo 3: Configuração da API Key
+O projeto usa a API Gemini para gerar as recomendações. Para isso, é necessário configurar a chave de API:
+
+Crie uma variável de ambiente chamada GEMINI_API_KEY com sua chave de API:
+No Linux/macOS:
+
+```bash
+export GEMINI_API_KEY="sua_chave_api_aqui"
+No Windows:
+```
+```bash
+set GEMINI_API_KEY="sua_chave_api_aqui"
+```
+### Passo 4: Execute o Servidor
+Inicie o servidor Flask para rodar a aplicação localmente:
+
+```bash
+python app.py
+A aplicação estará acessível em http://127.0.0.1:5000/.
+```
+### Passo 5: Testando as Funcionalidades
+Para testar as funcionalidades do sistema, basta acessar os seguintes endpoints na sua aplicação:
+
+Página Inicial
+A página principal do projeto:
+
+```nginx
+GET http://127.0.0.1:5000/
+```
+
+Recomendação de Livros
+Substitua user_id por um ID de usuário válido (exemplo: 1, 2, 3, etc.) para ver a recomendação personalizada.
+
+```nginx
+GET http://127.0.0.1:5000/recommend/<user_id>
+```
+
+Exemplo de URL:
+
+```arduino
+http://127.0.0.1:5000/recommend/1
+```
+Esse endpoint irá exibir uma recomendação de livro com base no histórico de compras do usuário.
